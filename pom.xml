@@ -323,6 +323,16 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>${appengine.maven.plugin.version}</version>
 			</plugin>
+			<!-- newwwwww -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<configuration>
+					<url>http://localhost:8080/manager</url>
+					<server>mytomcat</server>
+					<path>/PET-SHOP</path>
+				</configuration>
+			</plugin>
 		</plugins>
 
 		<finalName>PET-SHOP</finalName>
