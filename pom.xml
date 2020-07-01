@@ -28,7 +28,7 @@
 		<jackson.version>2.5.4</jackson.version>
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<org.aspectj-version>1.7.4</org.aspectj-version>
-		<mysql.connector.version>5.1.31</mysql.connector.version>
+		<mysql.connector.version>8.0.16</mysql.connector.version>
 
 		<appengine.maven.plugin.version>1.3.2</appengine.maven.plugin.version>
 		<appengine.api.sdk.version>1.9.63</appengine.api.sdk.version>
